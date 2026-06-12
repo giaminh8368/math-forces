@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  /* Codeforces style ELO color hierarchy */
+  --color-cf-unrated: #cccccc;
+  --color-cf-newbie: #808080;
+  --color-cf-pupil: #008000;
+  --color-cf-specialist: #03a89e;
+  --color-cf-expert: #0000ff;
+  --color-cf-candidate-master: #aa00aa;
+  --color-cf-master: #ff8c00;
+  --color-cf-grandmaster: #ff0000;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+  }
+}
+
+/* Custom terminal background animations */
+.terminal-glow {
+  box-shadow: 0 0 15px rgba(20, 200, 150, 0.15);
+}
+
+/* Scrollbar customization */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0f1015;
+}
+::-webkit-scrollbar-thumb {
+  background: #1f2937;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #374151;
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "KAIST-Forces Judge",
+  "description": "Codeforces-style auto-grader and learning companion for KAIST Calculus (MAS101) & Linear Algebra (MAS109).",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
